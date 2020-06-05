@@ -44,6 +44,11 @@ body, html {
   color: #594f4f;
 }
 
+button {
+  background-color:#594f4f;
+  color: white;
+}
+
 #output {
   display:none; 
   font-family: Verdana;
