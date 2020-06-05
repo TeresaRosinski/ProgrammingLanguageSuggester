@@ -37,10 +37,64 @@
     <!Form>
 
     <div class = "container">
-      <div class = "form-group">
-        <label for = "name">Please enter your name</label>
-        <input id = "name" class = "form-control" type = "text">
-      </div>
+      <form>
+
+        <div class = "form-group">
+          <label for = "name">Please enter your name</label>
+          <input id = "name" class = "form-control" type = "text">
+        </div>
+        
+        <label for="company">Which company would you prefer to work for?</label>
+        <select class = "form-control" id ="company">
+          <option>Google</option>
+          <option>Spotify</option>
+          <option>Hulu</option>
+          <option>Kickstarter</option>
+        </select>
+        
+        <label for= "system">Which computer system do you prefer?</label>
+        <div class = "radio" id="system">
+          <label>
+            <input type="radio" name="computer" value = "apple"> Apple
+          </label>
+          <label>
+            <input type="radio" name= "computer" value = "microsoft">Microsoft
+          </label>
+        </div>
+        
+        <label for= "problem-solving">Do you prefer having many ways to solve a problem, or one clear-cut solution?</label>
+        <div class = "radio" id="problem-solving">
+          <label>
+            <input type="radio" name="problem-solving" value = "one-way"> One answer, please!
+          </label>
+          <label>
+            <input type="radio" name= "problem-solving" value = "ambiguity">Bring on the ambiguity!
+          </label>
+        </div>
+
+        <label for= "data-processing">Are you interested in Data Analytics?</label>
+        <div class = "radio" id="data-processing">
+          <label>
+            <input type="radio" name="data-processing" value = "one-way"> I love numbers.
+          </label>
+          <label>
+            <input type="radio" name= "data-processing" value = "ambiguity">Numbers scare me.
+          </label>
+        </div>
+
+        <label for="house">Which house do you belong in?</label>
+        <select class = "form-control" id ="house">
+          <option>Hufflepuff</option>
+          <option>Slytherin</option>
+          <option>Gryffindor</option>
+          <option>Ravenclaw</option>
+          <option>I'm a muggle and don't know what this is about</option>
+        </select>
+
+
+
+        
+     </form> 
     </div>
 
   </div>
