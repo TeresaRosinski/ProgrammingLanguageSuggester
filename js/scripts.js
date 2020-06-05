@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $(".hero-text").hide(1).slideToggle(1000);
   $("button#show").click(function(){
     $(".will-be-hidden").slideToggle(1000);
   });
@@ -9,12 +10,6 @@ $(document).ready(function() {
     const problemSolvingPref = $("input:radio[name=problem-solving]:checked").val();
     const dataProcessing = $("input:radio[name=data-processing]:checked").val();
     const whichHouse = $("select#house").val();
-      console.log(name);
-      console.log(company); 
-      console.log(system);
-      console.log(problemSolvingPref);
-      console.log(dataProcessing);
-      console.log(whichHouse);
       
 
     if (dataProcessing === "yesData" && problemSolvingPref === "one-way" ){
@@ -34,7 +29,7 @@ $(document).ready(function() {
       $("output").show();
     }
 
-
+    $(".name").text(name);
     event.preventDefault();
-  });
+  }); 
 });

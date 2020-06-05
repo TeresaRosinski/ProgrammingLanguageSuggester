@@ -21,17 +21,31 @@ body, html {
 
 #show {
   background-color: #F1f1f1;
-  color: blue; 
+  color:#0000db; 
   border: none; 
   display: inline-block; 
+  font: 25px;
 }
 
 #show:hover {
-  background-color: #F8CA9D;
+  background-color: rgb(235, 235, 200);
 }
 
+.arrow {
+  padding:40px; 
+}
+
+.form {
+  font-family: Verdana;
+  font-size: 15px; 
+  color: darkslategrey;
+}
 #output {
   display:none; 
+  font-family: Verdana;
+  font-size:25px; 
+  color:#e17E76;
+  font-weight: bold; 
 }
 
 .will-be-hidden{
