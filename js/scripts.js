@@ -6,7 +6,7 @@ $(document).ready(function() {
     const problemSolvingPref = $("input:radio[name=problem-solving]:checked").val();
     const dataProcessing = $("input:radio[name=data-processing]:checked").val();
     const whichHouse = $("#house").val();
-
+      console.log (name);
 
     event.preventDefault();
   });
