@@ -10,7 +10,7 @@ _This is a website that has 5 questions to determine a programming language for 
 
 ## Setup/Installation Requirements
 
-* Simply open the page in your web browser.
+* Simply open the page in your web browser: https://teresarosinski.github.io/ProgrammingLanguageSuggester/
 
 ## Known Bugs
 
