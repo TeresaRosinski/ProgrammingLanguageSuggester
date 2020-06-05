@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $("button#show").click(function(){
+    $(".will-be-hidden").slideToggle(1000);
+  });
   $("form#formOne").submit(function(event){
     const name = $("input#name").val();
     const company= $("select#company").val();

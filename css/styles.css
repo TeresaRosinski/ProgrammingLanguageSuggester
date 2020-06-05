@@ -11,3 +11,7 @@
 #output {
   display:none; 
 }
+
+.will-be-hidden{
+  display: none; 
+}
