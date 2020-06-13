@@ -9,8 +9,15 @@
 _This is a website that has 5 questions to determine a programming language for the user. The languages include: Ruby, Python, Swift and C#_
 
 ## Setup/Installation Requirements
-
-* Simply open the page in your web browser: https://teresarosinski.github.io/ProgrammingLanguageSuggester/
+#### Follow this link to view the project in your browser: https://teresarosinski.github.io/ProgrammingLanguageSuggester/
+#### If you want to download and clone the project, follow these steps:
+##### Download a code editor such as Visual Studio
+##### Open your computers' terminal and give GIt your name and email:
+###### $ git config --global user.name "Enter Your Name Here"
+###### $ git config -- global user.emal youremail@email.com
+#### Click the 'clone or download' link on this the project page
+#### Save the project to your computer and open it up
+ 
 
 ## Known Bugs
 
