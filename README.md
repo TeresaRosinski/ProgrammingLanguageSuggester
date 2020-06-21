@@ -10,14 +10,19 @@ _This is a website that has 5 questions to determine a programming language for 
 
 ## Setup/Installation Requirements
 #### Follow this link to view the project in your browser: https://teresarosinski.github.io/ProgrammingLanguageSuggester/
-#### If you want to download and clone the project, follow these steps:
-##### Download a code editor such as Visual Studio
-##### Open your computers' terminal and give GIt your name and email:
-###### $ git config --global user.name "Enter Your Name Here"
-###### $ git config -- global user.emal youremail@email.com
-#### Click the 'clone or download' link on this the project page
-#### Save the project to your computer and open it up
- 
+
+Open by downloading:
+1. Download this repository onto your computer by clicking the 'clone or download button'
+2. Double click index.html to open it in your web browser
+
+Open via Bash/GitBash:
+1. Clone this repository onto your computer:
+`$ git clone https://github.com/TeresaRosinski/Epicodus-Project4-PizzaParlor.git`
+2. Navigate into the `Epicods-Project4-PizzaParlor` directory in Visual Studio Code or preferred text editor
+`$ code .`
+3. Open index.html in Chrome or preferred browser:
+`$ open index.html`
+
 
 ## Known Bugs
 
